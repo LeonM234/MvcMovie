@@ -33,6 +33,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Rating)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HasRazzie)
+        </th>
         <th></th>
     </tr>
 
@@ -52,6 +55,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HasRazzie)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
